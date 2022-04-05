@@ -1,0 +1,21 @@
+.links {
+    display: flex;
+    list-style: none;
+  }
+  
+  .menu {
+    margin-left: auto;
+  }
+  
+  .links li {
+    padding: 1rem;
+  }
+img {
+  max-width: 50%;
+}
+
+
+    
+
+  
+  

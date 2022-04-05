@@ -6,6 +6,7 @@
 
   <title></title>
 
+
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- Load Styles -->
@@ -14,43 +15,97 @@
 
 </head>
 
+
+
 <body>
   <!-- Add your content here -->
+  
   <div class="container">
-    <header class="header">
-      <img src="img/charlies header-01.png">
-      <div class="top-left">Location</div>
-    </header>
-    <section class="menus-container">
-
-      <div class="menu">
-        <h2>Espresso Drinks</h2>
-        <p>Our Menu Table will go here</p>
-      </div>
+    <nav><header>
+      <a href='#' class="logo">Coffee<span></span></a>
+      <ul class="navigation">
+        <li><a href="#banner">Home</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#location">Location</a></li>
+      </ul>
+    </header></nav>
     
-      <div class="menu">
-        <h2>Other Drinks</h2>
-        <p>Our Menu Table will go here</p>
+    <main><section class="banner" id="banner">
+      <div class="content">
+        <h1>Charlie's Cafe</h1>
+        <p>Charlie's Café, one of Sun Devil Dining’s local restaurant partners, brings the taste of Europe to ASU! Proudly serving Firecreek Coffee and featuring fresh European sandwiches and baked goods. Come experience the difference! With three locations on campus, there is always a Charlie's Cafe near! </p>
+        <a href="#" class="btn">Our Menu</a>
       </div>
-    
-      <div class="menu">
-        <h2>Food</h2>
-        <p>Our Menu Table will go here</p>
-      </div>
-    
-      <div class="menu">
-        <h2>Extras</h2>
-        <p>Our Menu Table will go here</p>
-      </div>
-    
-    </section>
-    <main class="main">
-      <p>Main content goes here.</p>
-    </main>
-    <footer class="footer">
-      <p>Footer content goes here.</p>
-    </footer>
+    </section></main>
   </div>
+  <div class="main">
+      <section class="menu" id="menu">
+        <h2 class="titleText"><span>Menu</span></h2>
+    </div>
+
+  <div class="container2">
+   
+    <div id="content1"> 
+        <div class="row">
+          <div class="column"> <table>
+            <tr>
+              <h2>Hot Drinks</h2>
+              <h3>Small/Medium/Large</h3>
+            </tr>
+            <tr>
+              <th>Drip Coffee</th>
+              <th>$2.15   $2.50   $2.75</th>
+            </tr>
+          </table></div>
+    </div>
+    <div id="content2">
+      <div class="row">
+      <div class="column"> <table>
+        <tr>
+          <h2>Cold Drinks</h2>
+          <h3>Small/Medium/Large</h3>
+        </tr>
+        <tr>
+          <th>Coffee</th>
+          <th>$2.15   $2.50   $2.75</th>
+        </tr>
+      </table></div></div>
+    </div>
+
+
+    <div id="content3">Content3</div>
+  </section>
+
+    <footer>Footer</footer>
+
+ 
+
+
+
+
+    
+   
+      
+    
+  </section>
+
+</div>
+
+<script type="text/javascript">
+  window.addEventListener('scroll', function(){
+    const header = document.querySelector('header');
+    header.classList.toggle("sticky", window.scrollY > 0);
+  });
+
+</script>
+    
+
+  
+
+ 
+ 
+
+
 
   <!-- Load Scripts -->
   <script src="js/scripts.js"></script>
