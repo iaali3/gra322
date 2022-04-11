@@ -82,14 +82,14 @@ body{
     justify-content: center;
     align-items: center;
 }
-.content
+.banner .content
 {
     position: relative;
     text-align: center;
     color: #EFE2D3;
 }
 
-.content h1
+.banner .content h1
 {
     position: absolute;
     text-align: center;
@@ -98,7 +98,7 @@ body{
     
 }
 
-.content h2
+.banner .content h2
 {
     position: absolute;
     font-size: 5rem;
@@ -107,7 +107,7 @@ body{
 
 }
 
-.content p
+.banner .content p
 {
     position: absolute;
     max-width: 500px;
