@@ -1,5 +1,12 @@
 
-  
+.three-column {
+  display: grid;
+  background: #fff;
+  gap: 2rem;
+  max-width: 1450px;
+  margin: 0 auto;
+  padding: 3rem;
+}
 .nav-bar {
   display: flex;
   align-items: center;
@@ -27,6 +34,24 @@
   gap: 30px;
 }
 
+/* phone screen */
+@media screen and (min-width: 800px) {
+  .three-column {
+    grid-template-columns: 1fr;
 
+  }
+}
+
+  nav ul {
+    display: flex;
+  }
+
+/* desktop screen */
+@media screen and (min-width: 1200px) {
+  .three-column {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  
+}
   
   
