@@ -1,43 +1,129 @@
+* {
+  text-decoration: none;
+  list-style: none;
+}
+
 
 .three-column {
+  font-family: Arial, Helvetica, sans-serif;
   display: grid;
   background: #fff;
   gap: 2rem;
-  max-width: 1450px;
+  width: 93%;
+  text-align: center;
   margin: 0 auto;
   padding: 3rem;
 }
-.nav-bar {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 2rem;
-  color: #fff;
+
+
+
+.row1 {
+  padding-top: 10px;
+  padding-bottom: 2rem;
 }
 
-.nav-links a {
-  color: #fff;
+.row2 {
+  padding-top: 10px;
+  padding-bottom: 2rem;
+}
+
+
+
+.app {
+  flex-basis: 32%;
+  justify-content: left;
+  position: relative;
+  overflow: hidden;
+}
+
+
+.apptitle {
+  font-size: 15px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  list-style: none;
+}
+
+.h3 {
+  font-size: 12px;
+  font-style: italic;
+  text-decoration: none;
+  padding-bottom: 15px;
+  text-align: left;
+}
+
+.psaid {
+  justify-content: left;
+  position: relative;
+  overflow: hidden;
+}
+
+.psaid img {
+  width: 300px;
+}
+
+header .nav-links {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 200;
+  margin: 1rem 2rem;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  color: black;
+}
+
+
+
+ul {
+  list-style: none;
+}
+
+.nav-links li a {
+  color: black;
 
 }
 
 .title {
-  margin-top: 1rem;
-  margin-left: 5rem;
-  margin-right: 5rem;
+  padding-bottom: 3rem;
 }
+
+.container h1 {
+  padding: 0;
+  text-align: center;
+}
+
+.container h2 {
+  padding: 1rem;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.container p{
+  margin-top: 2rem;
+  margin-left: 6rem;
+  margin-right: 6rem;
+  justify-content: center;
+  
+}
+
 
 .body {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: auto auto auto;
+  grid-template-rows: auto auto ;
   margin: 5rem 5rem;
   gap: 30px;
 }
+
 
 /* phone screen */
 @media screen and (min-width: 800px) {
   .three-column {
     grid-template-columns: 1fr;
+
 
   }
 }
@@ -50,8 +136,11 @@
 @media screen and (min-width: 1200px) {
   .three-column {
     grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
   }
   
 }
+
+
   
   
