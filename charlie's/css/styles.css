@@ -91,6 +91,7 @@ body{
 
 .content h1
 {
+    position: absolute;
     text-align: center;
     font-size: 60px;
     padding: 2rem;
@@ -99,6 +100,7 @@ body{
 
 .content h2
 {
+    position: absolute;
     font-size: 5rem;
     color: #EFE2D3;
 
@@ -106,15 +108,12 @@ body{
 
 .content p
 {
+    position: absolute;
     max-width: 500px;
     font-size: 1rem;
     color: #EFE2D3;
 }
 
-.content .background-image
-{
-    display: inline-flex;
-}
 
 .btn
 {
