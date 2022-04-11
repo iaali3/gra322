@@ -82,14 +82,14 @@ body{
     justify-content: center;
     align-items: center;
 }
-.banner .content
+.content
 {
-    max-width: 900px;
+    position: relative;
     text-align: center;
     color: #EFE2D3;
 }
 
-.banner .content h1
+.content h1
 {
     text-align: center;
     font-size: 60px;
@@ -97,18 +97,23 @@ body{
     
 }
 
-.banner .content h2
+.content h2
 {
     font-size: 5rem;
     color: #EFE2D3;
 
 }
 
-.banner .content p
+.content p
 {
     max-width: 500px;
     font-size: 1rem;
     color: #EFE2D3;
+}
+
+.content .background-image
+{
+    display: inline-flex;
 }
 
 .btn
