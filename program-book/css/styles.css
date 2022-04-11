@@ -5,19 +5,11 @@
   align-items: center;
   justify-content: space-between;
   padding: 2rem;
-  background-color: burlywood;
   color: #fff;
 }
 
 .nav-links a {
   color: #fff;
-
-}
-
-.menu {
-  display: flex;
-  gap: 10rem;
-  font-size: 18px;
 
 }
 
