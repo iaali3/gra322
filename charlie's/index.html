@@ -20,83 +20,76 @@
 <body>
   <!-- Add your content here -->
   
-  <div class="container">
-    <nav><header>
-      <a href='#' class="logo">ASU Local Coffee<span></span></a>
+  <header>
+      <a href='#' class="logo">ASU Local Coffee</a>
       <ul class="navigation">
-        <li><a href="#banner">Home</a></li>
+        <li><a href="#home">Home</a></li>
         <li><a href="#menu">Menu</a></li>
         <li><a href="#location">Location</a></li>
       </ul>
-    </header></nav>
+  </header>
+
     
-    <main><section class="banner" id="banner">
-      <div class="content">
+  <section class="banner" id="banner">
+   <div class="content">
         <h1>Charlie's Cafe</h1>
         <p>Charlie's Café, one of Sun Devil Dining’s local restaurant partners, brings the taste of Europe to ASU! Proudly serving Firecreek Coffee and featuring fresh European sandwiches and baked goods. Come experience the difference! With three locations on campus, there is always a Charlie's Cafe near! </p>
         <a href="#" class="btn">Our Menu</a>
+
       </div>
-    </section></main>
-  </div>
-  
-  <div class="container">
-  <div class="main">
-      <section class="menu" id="menu">
-        <h2 class="titleText"><span>Menu</span></h2>
+  </section>
+      
+  <section class="menu" id="menu">
+    <div class="row">
+      <div class="col50">
+        <h2 class="titleText"><span>Our Menu</span></h2>
+
+      </div>
     </div>
-  </div>
+  </section>
+  
 
-  <section class="three-column">
-
-    <div class="column">
+  <main><section class="three-column" id="three-column">
+    
+    <div class="column1">
       <h2>Hot Drinks</h2>
       <h3>Small/Medium/Large</h3>
+      </div>
+    
     </div>
 
-    <div class="column">
+    <div class="column2">
       <h2>Cold Drinks</h2>
       <h3>Small/Medium/Large</h3>
     </div>
 
-    <div class="column">
+    <div class="column3">
       <h2>Food</h2>
       <h3>Small//Medium/Large</h3>
     </div>
+  </main>
+</section>
     
   </section>
-  
-  
-
 
     <footer>Footer</footer>
 
  
-
-
-
-
-    
-   
-      
-    
   </section>
 
 </div>
 
 <script type="text/javascript">
-  window.addEventListener('scroll', function(){
+  window.addEventListener('scroll', function() {
     const header = document.querySelector('header');
-    header.classList.toggle("sticky", window.scrollY > 0);
+   header.classList.toggle("sticky", window.scrollY > 0);
   });
-
 </script>
+
+
     
 
   
-
- 
- 
-
 
 
   <!-- Load Scripts -->

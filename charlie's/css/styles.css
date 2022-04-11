@@ -1,55 +1,62 @@
-
-
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 
 .three-column {
+    grid-area: main;
+    width: 100%;
     background: #291813;
+    color: #EFE2D3;
     display: grid;
-    gap: 1rem;
-    max-width: 1400px;
-    margin: 0 auto;
-    padding: 5rem;
-
-}
-.container {
-
+    max-width: 1500px;
+    padding: 3rem 3rem;
     font-family: 'Arial', sans-serif;
     scroll-behavior: smooth;
     list-style: none;
-    
+    column-gap: 30px;
+
+
+}
+
+.three-column .column1 {
+    text-align: center;
 }
 
 
-
-
-nav{
-    grid-area: nav;
-   
+.three-column .column2 {
+    text-align: center;
 }
 
-main{
-    background: #291813;
-    grid-area: main;
-    
+.three-column .column3 {
+    text-align: center;
 }
 
-#content1{
+
+#content{
     grid-area:content1;
     
 }
 
-#content2{
+#content{
     grid-area: content2;
     
 }
 
-#content3{
+#content{
     grid-area: content3;
     
 }
 
 footer{
+    background: #EFE2D3;
     grid-area: footer;
+    display: flex;
+    padding: 1rem 1rem;
+    width: 100%;
+    min-height: 70vh;
 
 
 }
@@ -61,6 +68,10 @@ p
     list-style: none;
 }
 
+body{
+    min-height: 1000;
+
+}
 
 .banner
 {
@@ -76,19 +87,21 @@ p
 {
     max-width: 900px;
     text-align: center;
-    color: #fff;
+    color: #EFE2D3;
 }
 
 .banner .content h1
 {
     text-align: center;
     font-size: 60px;
+    padding: 2rem;
+    
 }
 
 .banner .content h2
 {
     font-size: 5rem;
-    color: #fff;
+    color: #EFE2D3;
 
 }
 
@@ -96,7 +109,7 @@ p
 {
     max-width: 500px;
     font-size: 1rem;
-    color: #fff;
+    color: #EFE2D3;
 }
 
 .btn
@@ -118,7 +131,12 @@ p
 {
     letter-spacing: 6px;
     color: #291813;
+    border-radius: 50px;
 
+}
+
+a{
+    text-decoration:none;
 }
 
 header
@@ -127,35 +145,32 @@ header
     top: 0;
     left: 0;
     width: 100%;
-    padding: 40px 100px;
+    padding: 30px 50px;
     z-index: 10000;
     display: flex;
     justify-content: space-between;
     align-items: center;
     transition: 0.5s;
-    
+
 }
-header.sticky
-{
-    background: #291813;
-    padding: 10px 100px;
+
+header.sticky{
+    background: #EFE2D3;
+    padding: 30px 50px;
     box-shadow: 0 5px 20px rgba(0,0,0,0.05);
+}
+
+header.sticky .logo
+{
+    color: #291813;
 }
 
 header .logo
 {
-    margin-left: 1rem;
     color: #EFE2D3;
     font-weight: 700;
-    font-size: 2rem;
+    font-size: 1.5rem;
     text-decoration: none;
-
-}
-
-header .logo:hover
-{
-    color: #4F9AE5;
-
 }
 
 header .navigation
@@ -168,31 +183,28 @@ header .navigation li
 {
     list-style: none;
     margin-left: 30px;
-
 }
 
 header .navigation li a
 {
     text-decoration: none;
-    color: #EFE2D3;
-    font-weight: 300;
-    transition: 0.5s;
-    padding: 10px 30px;
+    padding: 1rem;
+    color: #fff;
+    font-size: 1rem
 }
 
 header.sticky .navigation li a
 {
-   color: #EFE2D3; 
-
+    color: #291813;
 }
 
 header .navigation li a:hover
 {
+    letter-spacing: 5px;
     color: #4F9AE5;
-    text-decoration: underline;
-    letter-spacing: 3px;
     transition: 0.5s;
 }
+
 
 section
 {
@@ -200,48 +212,47 @@ section
 
 }
 
+
 .row
 {
     position: relative;
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    right: 0;
 
 }
 
 
-div {
-    column-gap: 30px;
+
+.row .col50
+{
+    position: relative;
+    width: 100%;
+
 }
 
 .titleText
 {
-    background: #4F9AE5;
+    background: #291813;
     color: #EFE2D3;
-    font-size: 2rem;
-    font-weight: 300;
-    padding: 50px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3rem;
+    font-weight: 300px;
+    padding: 70px 10px;
     text-align: center;
+
 }
 
-.titleText span
-{
-    text-align: center;
-    color: #EFE2D3;
-    font-weight: 700;
-    font-size: 1.5rem;
-  
-
-   
-}
 
 /* Mobile Responsive layout - when screen is less than 600px wide, stack columns */
 @media only screen and (min-width: 800px) {
     .three-column{
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 0.4fr 3fr 3fr 1.6fr;
+        grid-template-rows: 1fr 2fr 3fr 3fr;
         grid-template-areas: 
             "nav"
+            "content"
             "main"
             "content1"
             "content2"
