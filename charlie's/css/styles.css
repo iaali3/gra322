@@ -79,6 +79,7 @@ body{
     height: 100%;
     overflow: hidden;
     position: relative;
+    justify-content: center;
     text-align: center;
     color: #EFE2D3;
     font-family: Arial, Helvetica, sans-serif;
@@ -86,25 +87,29 @@ body{
 
 .content img {
     object-fit: cover;
+    overflow: hidden;
     display: block;
     max-width: auto;
-    max-height: auto;
+    min-height: 720px;
 
 }
 
 .h1 {
-    font-size: 3rem;
+    font-size: 4rem;
     font-weight: bold;
     position: absolute;
-    top: 50%;
+    top: 35%;
     left: 50%;
     transform: translate(-50%, -50%);
+    text-align: center;
 }
 
 .p {
-    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 20px;
     position: absolute;
-    top: 70%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
 }
@@ -114,7 +119,7 @@ body{
     position: absolute;
     font-size: 1rem;
     color: #EFE2D3;
-    top: 90%;
+    top: 75%;
     margin-bottom: 3rem;
     background: #4F9AE5;
     display: inline-block;
@@ -239,17 +244,18 @@ section
     font-family: Arial, Helvetica, sans-serif;
     font-size: 3rem;
     font-weight: 300px;
-    padding: 70px 10px;
+    padding: 2rem;
     text-align: center;
 
 }
+
 
 
 /* Mobile Responsive layout - when screen is less than 600px wide, stack columns */
 @media only screen and (min-width: 800px) {
     .three-column{
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 2fr 3fr 3fr;
+        grid-template-rows: 1fr 10fr;
         grid-template-areas: 
             "nav"
             "content"
