@@ -504,6 +504,223 @@ ul {
   color: black;
 }
 
+/*charlies*/
+.final-charlies-images {
+  display: grid;
+  gap: 3rem;
+  margin-left: 6rem;
+  align-items: center;
+  padding-bottom: 3rem;
+  padding-top: 3rem;
+}
+
+.final-charlies-images img {
+  height: 500px;
+  width: 500px;
+  object-fit: cover;
+  
+}
+
+.final-charlies-process-images {
+  display: grid;
+  gap: 3rem;
+  margin-left: 6rem;
+  align-items: center;
+  padding-bottom: 4rem;
+  padding-top: 3rem;
+}
+
+.final-charlies-process-images img {
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+  
+}
+
+.charlies-menu {
+  display: grid;
+  padding-bottom: 6rem;
+  padding-top: 3rem;
+  margin-left: 3rem;
+}
+
+.charlies-menu h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+  text-align: left;
+  padding-left: 3rem;
+}
+
+
+.charlies-menu h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 3rem;
+  text-align: left;
+  font-size: 15px;
+  font-weight: 100;
+  font-style: italic;
+  
+}
+
+.charlies-menu h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 3rem;
+  text-align: left;
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 3rem;
+  
+}
+
+.charlies-base h4 {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 6rem;
+  text-align: left;
+  font-size: 18px;
+  font-weight: 650;
+  
+}
+
+.charlies-menu h5 {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 3rem;
+  text-align: left;
+  font-size: 13px;
+  font-weight: 100;
+  font-style: italic;
+  
+}
+
+.charlies-menu p {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 3rem;
+  text-align: left;
+  font-size: 15px;
+  font-weight: 100px;
+  padding-top: 2rem;
+  max-width: 350px;
+  
+}
+
+.charlies-links {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 200;
+  margin: 1rem 1rem;
+  padding-top: 1rem;
+  padding-left: 5rem;
+  display: flex;
+  justify-content: space-between;
+  color: black;
+}
+
+/*mlk*/
+.final-mlk-images {
+  display: grid;
+  gap: 3rem;
+  margin-left: 6rem;
+  align-items: center;
+  padding-bottom: 3rem;
+  padding-top: 3rem;
+}
+
+.final-mlk-images img {
+  height: 500px;
+  width: 500px;
+  object-fit: cover;
+  
+}
+
+.final-mlk-process-images {
+  display: grid;
+  gap: 3rem;
+  margin-left: 6rem;
+  align-items: center;
+  padding-bottom: 4rem;
+  padding-top: 3rem;
+}
+
+.final-mlk-process-images img {
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+  
+}
+
+.mlk-menu {
+  display: grid;
+  padding-bottom: 6rem;
+  padding-top: 3rem;
+  margin-left: 3rem;
+}
+
+.mlk-menu h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+  text-align: left;
+  padding-left: 3rem;
+}
+
+
+.mlk-menu h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 3rem;
+  text-align: left;
+  font-size: 15px;
+  font-weight: 100;
+  font-style: italic;
+  
+}
+
+.mlk-menu h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 3rem;
+  text-align: left;
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 3rem;
+  
+}
+
+.mlk-base h4 {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 6rem;
+  text-align: left;
+  font-size: 18px;
+  font-weight: 650;
+  
+}
+
+.mlk-menu h5 {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 3rem;
+  text-align: left;
+  font-size: 13px;
+  font-weight: 100;
+  font-style: italic;
+  
+}
+
+.mlk-menu p {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 3rem;
+  text-align: left;
+  font-size: 15px;
+  font-weight: 100px;
+  padding-top: 2rem;
+  max-width: 350px;
+  
+}
+
+.mlk-links {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 200;
+  margin: 1rem 1rem;
+  padding-top: 1rem;
+  padding-left: 5rem;
+  display: flex;
+  justify-content: space-between;
+  color: black;
+}
 
 
 
@@ -587,6 +804,28 @@ ul {
     grid-template-rows: 1fr;
   }
   .final-website-process-images {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+
+  .final-charlies-images {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+  .final-charlies-process-images {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+
+  .final-mlk-images {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+  .final-mlk-process-images {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
