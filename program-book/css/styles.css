@@ -1,51 +1,143 @@
 * {
+  box-sizing: border-box;
   text-decoration: none;
-  list-style: none;
 }
 
 
-.three-column {
-  font-family: Arial, Helvetica, sans-serif;
+
+.home-images {
   display: grid;
-  background: #fff;
-  gap: 2rem;
-  width: 93%;
-  text-align: center;
-  margin: 0 auto;
-  padding: 3rem;
-  grid-template-rows: auto auto;
-  grid-template-columns: 1fr 1fr 1fr;
+  gap: 3rem;
+  margin-left: 6rem;
+  align-items: center;
 }
 
+.home-images img {
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
 
-.apptitle {
-  font-size: 18px;
-  position: relative;
+}
+
+.final-app-images {
+  display: grid;
+  gap: 3rem;
+  margin-left: 6rem;
+  align-items: center;
+}
+
+.final-app-images img {
+  height: 500px;
+  width: 500px;
+  object-fit: cover;
+  
+}
+
+.final-app-process-images {
+  display: grid;
+  gap: 3rem;
+  margin-left: 6rem;
+  align-items: center;
+  padding-bottom: 4rem;
+  padding-top: 3rem;
+}
+
+.final-app-process-images img {
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+  
+}
+
+.appmenu {
+  display: grid;
+  padding-bottom: 6rem;
+  padding-top: 3rem;
+  margin-left: 3rem;
+}
+
+.appmenu h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
   text-align: left;
-  text-decoration: none;
-  list-style: none;
+  padding-left: 3rem;
 }
 
-.h3 {
-  font-size: 14px;
+
+.appmenu h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 3rem;
+  text-align: left;
+  font-size: 15px;
+  font-weight: 100;
   font-style: italic;
-  text-decoration: none;
-  padding-bottom: 10px;
-  text-align: left;
+  
 }
 
+.appmenu h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 3rem;
+  text-align: left;
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 3rem;
+  
+}
 
-header .nav-links {
+.app-base h4 {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 6rem;
+  text-align: left;
+  font-size: 18px;
+  font-weight: 650;
+  
+}
+
+.appmenu h5 {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 3rem;
+  text-align: left;
+  font-size: 13px;
+  font-weight: 100;
+  font-style: italic;
+  
+}
+
+.appmenu p {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 3rem;
+  text-align: left;
+  font-size: 15px;
+  font-weight: 100px;
+  padding-top: 2rem;
+  max-width: 350px;
+  
+}
+
+.applinks {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 200;
   margin: 1rem 1rem;
   padding-top: 1rem;
   padding-left: 5rem;
+  display: flex;
+  justify-content: space-between;
+  color: black;
+}
+
+
+.menu {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 200;
+  margin: 1rem 1rem;
+  padding-top: 1rem;
+  padding-left: 2.5rem;
   padding-right: 6rem;
   display: flex;
   justify-content: space-between;
   color: black;
 }
+
 
 ul {
   list-style: none;
@@ -55,13 +147,18 @@ ul {
   color: black;
 
 }
+.nav-links li a:hover {
+  text-decoration: underline;
 
-.title {
-  padding-bottom: 3rem;
-  padding-top: 4rem;
 }
 
-.container h1 {
+.title {
+  display: grid;
+  padding-bottom: 6rem;
+  padding-top: 3rem;
+}
+
+.title h1 {
   font-family: Arial, Helvetica, sans-serif;
   padding: 0;
   text-align: left;
@@ -69,7 +166,7 @@ ul {
 }
 
 
-.container h2 {
+.title h2 {
   font-family: Arial, Helvetica, sans-serif;
   padding-left: 6rem;
   text-align: left;
@@ -78,26 +175,38 @@ ul {
   font-style: italic;
 }
 
-.container p{
-  font-family: Arial, Helvetica, sans-serif;
-  max-width: 400px;
-  margin-top: 2rem;
-  margin-left: 6rem;
-  margin-right: 6rem;
-  justify-content: left;
-  
-}
 
 
 
 /* phone screen */
-@media screen and (min-width: 800px) {
-  .three-column {
+@media screen and (max-width: 900px) {
+  .home-images {
+    display: grid;
     grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+  }
 
+  .title {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    
+  }
 
+  .appmenu {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    
+  }
+
+  .final-app-images {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
   }
 }
+
 
   nav ul {
     display: flex;
@@ -105,11 +214,27 @@ ul {
 
 /* desktop screen */
 @media screen and (min-width: 1200px) {
-  .three-column {
+  .home-images {
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
   }
-  
+  .final-app-images {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+  .final-app-process-images {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+  .final-app-process-images {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+
 }
 
 
