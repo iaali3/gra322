@@ -24,6 +24,8 @@
   gap: 3rem;
   margin-left: 6rem;
   align-items: center;
+  padding-bottom: 3rem;
+  padding-top: 3rem;
 }
 
 .final-app-images img {
@@ -43,6 +45,38 @@
 }
 
 .final-app-process-images img {
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+  
+}
+
+.final-psaid-images {
+  display: grid;
+  gap: 3rem;
+  margin-left: 6rem;
+  align-items: center;
+  padding-bottom: 3rem;
+  padding-top: 3rem;
+}
+
+.final-psaid-images img {
+  height: 500px;
+  width: 500px;
+  object-fit: cover;
+  
+}
+
+.final-psaid-process-images {
+  display: grid;
+  gap: 3rem;
+  margin-left: 6rem;
+  align-items: center;
+  padding-bottom: 4rem;
+  padding-top: 3rem;
+}
+
+.final-psaid-process-images img {
   height: 300px;
   width: 300px;
   object-fit: cover;
@@ -114,6 +148,82 @@
   
 }
 
+.psaid-menu {
+  display: grid;
+  padding-bottom: 6rem;
+  padding-top: 3rem;
+  margin-left: 3rem;
+}
+
+.psaid-menu h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+  text-align: left;
+  padding-left: 3rem;
+}
+
+
+.psaid-menu h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 3rem;
+  text-align: left;
+  font-size: 15px;
+  font-weight: 100;
+  font-style: italic;
+  
+}
+
+.psaid-menu h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 3rem;
+  text-align: left;
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 3rem;
+  
+}
+
+.psaid-base h4 {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 6rem;
+  text-align: left;
+  font-size: 18px;
+  font-weight: 650;
+  
+}
+
+.psaid-menu h5 {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 3rem;
+  text-align: left;
+  font-size: 13px;
+  font-weight: 100;
+  font-style: italic;
+  
+}
+
+.psaid-menu p {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 3rem;
+  text-align: left;
+  font-size: 15px;
+  font-weight: 100px;
+  padding-top: 2rem;
+  max-width: 350px;
+  
+}
+
+.psaid-links {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 200;
+  margin: 1rem 1rem;
+  padding-top: 1rem;
+  padding-left: 5rem;
+  display: flex;
+  justify-content: space-between;
+  color: black;
+}
+
 .applinks {
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 200;
@@ -177,6 +287,225 @@ ul {
 
 
 
+.final-letternumber-images {
+  display: grid;
+  gap: 3rem;
+  margin-left: 6rem;
+  align-items: center;
+  padding-bottom: 3rem;
+  padding-top: 3rem;
+}
+
+.final-letternumber-images img {
+  height: 500px;
+  width: 500px;
+  object-fit: cover;
+  
+}
+
+.final-letternumber-process-images {
+  display: grid;
+  gap: 3rem;
+  margin-left: 6rem;
+  align-items: center;
+  padding-bottom: 4rem;
+  padding-top: 3rem;
+}
+
+.final-letternumber-process-images img {
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+  
+}
+
+.letternumber-menu {
+  display: grid;
+  padding-bottom: 6rem;
+  padding-top: 3rem;
+  margin-left: 3rem;
+}
+
+.letternumber-menu h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+  text-align: left;
+  padding-left: 3rem;
+}
+
+
+.letternumber-menu h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 3rem;
+  text-align: left;
+  font-size: 15px;
+  font-weight: 100;
+  font-style: italic;
+  
+}
+
+.letternumber-menu h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 3rem;
+  text-align: left;
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 3rem;
+  
+}
+
+.letternumber-base h4 {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 6rem;
+  text-align: left;
+  font-size: 18px;
+  font-weight: 650;
+  
+}
+
+.letternumber-menu h5 {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 3rem;
+  text-align: left;
+  font-size: 13px;
+  font-weight: 100;
+  font-style: italic;
+  
+}
+
+.letternumber-menu p {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 3rem;
+  text-align: left;
+  font-size: 15px;
+  font-weight: 100px;
+  padding-top: 2rem;
+  max-width: 350px;
+  
+}
+
+.letternumber-links {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 200;
+  margin: 1rem 1rem;
+  padding-top: 1rem;
+  padding-left: 5rem;
+  display: flex;
+  justify-content: space-between;
+  color: black;
+}
+
+/*website*/
+.final-website-images {
+  display: grid;
+  gap: 3rem;
+  margin-left: 6rem;
+  align-items: center;
+  padding-bottom: 3rem;
+  padding-top: 3rem;
+}
+
+.final-website-images img {
+  height: 500px;
+  width: 500px;
+  object-fit: cover;
+  
+}
+
+.final-website-process-images {
+  display: grid;
+  gap: 3rem;
+  margin-left: 6rem;
+  align-items: center;
+  padding-bottom: 4rem;
+  padding-top: 3rem;
+}
+
+.final-website-process-images img {
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+  
+}
+
+.website-menu {
+  display: grid;
+  padding-bottom: 6rem;
+  padding-top: 3rem;
+  margin-left: 3rem;
+}
+
+.website-menu h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+  text-align: left;
+  padding-left: 3rem;
+}
+
+
+.website-menu h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 3rem;
+  text-align: left;
+  font-size: 15px;
+  font-weight: 100;
+  font-style: italic;
+  
+}
+
+.website-menu h3 {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 3rem;
+  text-align: left;
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 3rem;
+  
+}
+
+.website-base h4 {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 6rem;
+  text-align: left;
+  font-size: 18px;
+  font-weight: 650;
+  
+}
+
+.website-menu h5 {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 3rem;
+  text-align: left;
+  font-size: 13px;
+  font-weight: 100;
+  font-style: italic;
+  
+}
+
+.website-menu p {
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 3rem;
+  text-align: left;
+  font-size: 15px;
+  font-weight: 100px;
+  padding-top: 2rem;
+  max-width: 350px;
+  
+}
+
+.website-links {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 200;
+  margin: 1rem 1rem;
+  padding-top: 1rem;
+  padding-left: 5rem;
+  display: flex;
+  justify-content: space-between;
+  color: black;
+}
+
+
+
 
 /* phone screen */
 @media screen and (max-width: 900px) {
@@ -229,14 +558,38 @@ ul {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
   }
-  .final-app-process-images {
+
+  .final-psaid-images {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+  .final-psaid-process-images {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+
+  .final-letternumber-images {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+  .final-letternumber-process-images {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+
+  .final-website-images {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+  }
+  .final-website-process-images {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
   }
 
 }
-
-
-  
-  
