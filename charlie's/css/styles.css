@@ -249,6 +249,13 @@ section
 
 }
 
+.menu-items {
+    list-style: none;
+    padding-top: 1rem;
+    row-gap: 2rem;
+    text-align: left;
+    padding-left: 2rem;
+}
 
 
 /* Mobile Responsive layout - when screen is less than 600px wide, stack columns */
@@ -270,3 +277,10 @@ section
         display: flex;
     }
 }
+
+    .menu-items {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+
+    
