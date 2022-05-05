@@ -57,6 +57,7 @@ footer{
     padding: 1rem 1rem;
     width: 100%;
     min-height: 70vh;
+    color: black;
 
 
 }
@@ -69,7 +70,7 @@ p
 }
 
 body{
-    min-height: 1000;
+    min-height: 500;
 
 }
 

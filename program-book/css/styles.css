@@ -521,7 +521,7 @@ ul {
   
 }
 
-.final-charlies-process-images {
+.final-charlies-process {
   display: grid;
   gap: 3rem;
   margin-left: 6rem;
@@ -530,7 +530,7 @@ ul {
   padding-top: 3rem;
 }
 
-.final-charlies-process-images img {
+.final-charlies-process img {
   height: 300px;
   width: 300px;
   object-fit: cover;
@@ -814,7 +814,7 @@ ul {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
   }
-  .final-charlies-process-images {
+  .final-charlies-process {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
