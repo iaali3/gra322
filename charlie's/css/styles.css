@@ -257,12 +257,16 @@ section
     padding-left: 2rem;
 }
 
+.location-directions {
+    color: black;
+}
+
 
 /* Mobile Responsive layout - when screen is less than 600px wide, stack columns */
 @media only screen and (min-width: 800px) {
     .three-column{
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 10fr;
+        grid-template-rows: 1fr 5fr;
         grid-template-areas: 
             "nav"
             "content"
@@ -280,7 +284,7 @@ section
 
     .menu-items {
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
     }
 
     
